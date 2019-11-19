@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    <title>Check out</title>
+</head>
+<body>
+    
+
+ <div class="first"> <a class="btn btn-primary" href="Home.html" role="button">Home</a> </div>
+<h1> Check out </h1>
+
+
+
+ <div class="container">
+
+ 
+
+    <form>
+       
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="First"><i class="fa fa-user"></i> First Name</label>
+              <input type="text" class="form-control is-invalid" id="First" placeholder="First Name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Last">Last Name</label>
+              <input type="text" class="form-control is-invalid" id="Last" placeholder="Last Name" required>
+            </div>
+          </div>
+
+
+
+       
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="Email"><i class="fa fa-address-card"></i> Email</label>
+            <input type="Email" class="form-control is-invalid" id="Email" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="Confirmemail">Confirm Email</label>
+            <input type="Email" class="form-control is-invalid" id="Confirmemail" placeholder="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress1"><i class="fa fa-location-arrow"></i> Address</label>
+          <input type="text" class="form-control is-invalid" id="inputAddress1" placeholder="....." required>
+        </div>
+      
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity"><i class="fa fa-university"></i> City</label>
+            <input type="text" class="form-control is-invalid" id="inputCity" required>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control is-invalid">
+              <option >Select...</option>
+              <option>NY</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control is-invalid" id="inputZip" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress"><i class="fa fa-credit-card"></i> Credit card #</label>
+            <input type="text" class="form-control is-invalid" id="inputAddress" placeholder="####-####-####-####" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="inputCard">Card</label>
+            <select id="inputCard" class="form-control is-invalid">
+              <option>Select...</option>
+              <option>Master card</option>
+              <option>Visa</option>
+              <option>American express</option>
+              <option>Discover</option>
+            </select>
+          </div>
+        </div>
+
+<div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="nameoncard"><i class="fa fa-id-badge"></i> Name on Card</label>
+            <input type="text" class="form-control is-invalid" id="nameoncard" placeholder="John Smith" required>
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="Exp">Exp Date</label>
+            <input type="text" class="form-control is-invalid" id="Exp" placeholder="##-##" required>
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="CVV">CVV</label>
+            <input type="text" class="form-control is-invalid" id="CVV" placeholder="###" required>
+          </div>
+        </div>
+
+
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Billing address same as shipping addess
+            </label>
+          </div>
+        </div>
+        
+      <button type="submit" class="btn btn-primary btn-block">Continue</button>
+   
+      </form>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

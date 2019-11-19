@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, sans-serif;
+
+}
+
+img{
+    width:30%;
+    height:100px;
+    
+}
+/*.container{
+    border: 3px solid orange;
+}*/
+.fa-trash{
+    color:Red;
+}
+span{
+    color:Grey;
+}
+
+.btn-primary{
+   
+    margin-left:113px;
+   
+   
+}
+
+
+.btn-secondary{
+    
+    width:30%;
+    font-family: "Times", Times, sans-serif;
+    font-size : 20px;
+}
+
+.block {
+    display: block;
+    width: 25%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:127px;
+    font-family: "times", sans-serif;
+    
+    
+    
+  }
+  .block:hover{
+     background-color:green;
+     
+  }
+
+  strong{
+      margin-left:5px;
+  }
+
+ 
+
+  @media(min-width:300px){
+  
+  .block,.block2{
+      width:50%;
+      margin:auto;
+  }
+.product-total{
+    margin-left:215px;
+}
+.btn-primary{
+    margin:auto;
+}
+h4,h5{
+    text-align:left;
+}
+span{
+    display:flex;
+    
+}
+
+}
+
+@media(min-width:768px){
+  
+    /*.block{
+        width:50%;
+        margin:auto;
+        
+    }
+    .block2{
+        width:50%;
+        margin:auto;
+    }*/
+  .product-total{
+      margin-left:680px;
+      /*position: relative;
+      bottom: 30px;*/
+      
+  }
+    
+
+    
+
+  }
+

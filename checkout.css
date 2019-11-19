@@ -1,0 +1,41 @@
+.container{
+    border: 3px solid orange;
+    background-color:lightgrey;
+}
+h1{
+    text-align:center;
+    font-weight:bold;
+    font-family: "Times New Roman", Times, sans-serif;
+    color:black;
+    
+}
+.form-group{
+    font-weight:bold;
+}
+body{
+    background-color:grey!important;
+}
+.fa-university{
+    color:orange;
+}
+.fa-location-arrow{
+    color:orange;
+}
+
+.fa-address-card{
+color:brown;
+}
+
+.fa-user{
+color:brown;
+}
+
+.fa-credit-card{
+    color:black;
+}
+
+
+.fa-id-badge{
+color:black;
+}
+
